@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rohan Jindal</title>
+<meta name="description" content="Rohan Jindal — writer, street photographer and author of It's Already Too Late. Wanderings &amp; Wonderings.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="curtain" id="curtain"><span>Rohan Jindal</span></div>
+<div class="wipe" id="wipe"></div>
+
+<header class="nav" id="nav">
+  <a href="#/" class="brand">Rohan Jindal</a>
+  <nav>
+    <a href="#/blog" data-nav="blog">Writing</a>
+    <a href="#/photography" data-nav="photography">Photography</a>
+    <a href="#/book" data-nav="book">Book</a>
+    <a href="#/elsewhere" data-nav="elsewhere">Elsewhere</a>
+  </nav>
+</header>
+
+<main id="view" tabindex="-1"></main>
+
+<footer class="foot">
+  <span>&copy; <span id="year"></span> Rohan Jindal</span>
+  <span class="foot-links" id="footLinks"></span>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lb-close" aria-label="Close">Close</button>
+  <button class="lb-prev" aria-label="Previous">&larr;</button>
+  <img alt="">
+  <button class="lb-next" aria-label="Next">&rarr;</button>
+  <div class="lb-count"></div>
+</div>
+
+<script src="content/site.js"></script>
+<script src="content/posts.js"></script>
+<script src="content/photos.js"></script>
+<script src="content/book.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
